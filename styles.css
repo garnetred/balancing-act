@@ -1,0 +1,109 @@
+body {
+  background-color: #F5F5F5;
+  /*font-family: regular 400;*/
+}
+
+header {
+}
+
+.navbar {
+  float:left;
+  height:200%;
+  width:55px;
+}
+nav {
+  background-color:white;
+  //margin-top:0;
+  //margin-bottom:0;
+  width:55px;
+  border:2px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+nav,
+ul,
+li {
+  //margin-left:0;
+}
+
+
+header, main {
+  //margin-left:100px;
+}
+
+main {
+  width: 500px;
+}
+
+.icon {
+  width:50px;
+  height:50px;
+  float:left;
+  margin:10px 5px;
+}
+
+.company-logo {
+  margin-bottom:100px;
+}
+
+.icon:hover{
+  border-left: 1px solid turquoise;
+}
+
+section {
+  width:100px;
+}
+
+.blue-background {
+  background-color:lightblue;
+  width:461px;
+  padding:20px;
+  display: inline-block;
+}
+
+.account-overview {
+  width:500px;
+}
+
+.card {
+  border: 1px solid black;
+  display:inline;
+  float:left;
+  padding: 5px 20px 5px 15px;
+  margin:10px;
+  text-align:left;
+}
+
+#first-card {
+  margin-left:0px;
+}
+
+h3 {
+  float:left;
+  margin:10px;
+}
+
+button {
+  margin-top:20px;
+  margin-left:10px;
+  clear:both;
+}
+
+aside {
+  float:right;
+  border-color:black;
+  border-style: solid;
+}
+
+table {
+  margin:10px;
+  text-align:left;
+}
+
+th,
+td {
+  padding:0 10px 0 0;
+}
