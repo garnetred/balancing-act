@@ -4,31 +4,21 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-      <nav>
-        <ul>
-          <li>
-            <img class="icon company-logo" src="assets/elephant.svg" alt="Company logo of an elephant atop a
+      <nav class="navbar">
+            <img class="company-logo" src="assets/elephant.svg" alt="Company logo of an elephant atop a
             balloon.">
-          </li>
-          <li>
             <img class="icon" src="assets/dashboard.svg" alt="A clipboard with a heart monitor
             on it.">
-          </li>
-          <li>
             <img class="icon" src="assets/transactions.svg" alt="An image of a credit
             card poking out of a wallet.">
-          </li>
-          <li>
             <img class="icon" src="assets/profile.svg" alt="A silhouette of a person.">
-          </li>
-        </ul>
       </nav>
     <header>
       <h1>Balancing Act</h1>
     </header>
     <main>
       <h2 class="blue-background" id="hide">Welcome, Oscar!</h2>
-      <div class="account-overview">
+      <section class="account-overview">
         <section class="card" id="first-card">
           <p>Income</p>
           <h4>$2,119.12</h4>
@@ -37,15 +27,45 @@
           <p>Expenses</p>
           <h4>$420.54</h4>
         </section>
-        <section class="card">
+        <section class="card" id="last-card">
           <p>Credit Report</p>
           <h4>673</h4>
-      </div>
       </section>
-      <section>
       </section>
+      <section class="account-status">
+        <section class="account-list">
+          <h3>Accounts</h3>
+          <button>Manage Accounts</button>
+        </section>
+        <section class="account-name">
+          <div class="info-card">
+            <img class="account-icon" src="assets/checking.svg" alt="Image of a
+            pen in a checkbook">
+            <h3>Wells Fargo</h3>
+            <h3>Checking</h3>
+          </div>
+          <div class="info-card">
+            <img class="account-icon" src="assets/savings.svg" alt="Image of a coin
+            going into a piggy bank">
+            <h3>Wells Fargo</h3>
+            <h3>Savings</h3>
+          </div>
+          <div class="info-card">
+            <img class="account-icon" src="assets/credit-card.svg" alt="Image of a
+            pen in a checkbook">
+            <h3>Amazon Credit</h3>
+            <h3>Credit Card</h3>
+          </div>
+          <div class="info-card">
+            <img class="account-icon" src="assets/credit-card.svg" alt="Image of a
+            pen in a checkbook">
+            <h3>Southwest Credit</h3>
+            <h3>Credit Card</h3>
+          </div>
+    </section>
     </main>
-    <aside>
+    <aside class="recent-transaction">
+    <section>
       <h3>Recent Transactions</h3>
       <button>New Transaction</button>
       <table>
@@ -114,6 +134,7 @@
           </tr>
         </tbody>
       </table>
-    </aside>
+    </section>
+  </aside>
   </body>
 </html>
