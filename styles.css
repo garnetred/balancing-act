@@ -62,6 +62,7 @@ main {
   box-sizing: border-box;
   position:relative;
   height:80px;
+  margin-bottom:24px;
 }
 
 .blue-background {
@@ -105,18 +106,6 @@ h4 {
   display:inline;
   float:left;
   padding: 5px 20px 20px 15px;
-  margin: 4%;
-  text-align:left;
-  width:22%;
-  height: 60px;
-  background:white;
-  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.05);
-}
-
-.card2 {
-  display:inline;
-  float:left;
-  padding: 5px 20px 20px 15px;
   margin: 0 4% 4% 4%;
   text-align:left;
   width:22%;
@@ -124,6 +113,7 @@ h4 {
   background:white;
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.05);
 }
+
 
 #first-card {
   margin-left:0;
@@ -137,11 +127,6 @@ h4 {
   width:100%;
   position: absolute;
   top: 200px;
-}
-
-.account-status-2 {
-  position:static;
-  width:100%;
 }
 
 .account-name {
