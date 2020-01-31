@@ -1,6 +1,7 @@
 body {
   background-color: #F5F5F5;
   font-family: 'Biryani', sans-serif;
+  color:#363636;
 }
 
 header {
@@ -89,29 +90,6 @@ main {
   clear:both;
 }
 
-.account-name {
-  clear:both;
-  width:600px;
-}
-
-.account-icon {
-  width:30px;
-  height:30px;
-  float:left;
-}
-
-.bank-name {
-  position:absolute;
-  top:0;
-  left:125px;
-}
-
-.account-type {
-  position:absolute;
-  top:0;
-  left:450px;
-}
-
 p {
   margin-bottom:5px;
   font-size: 10px;
@@ -135,6 +113,18 @@ h4 {
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.05);
 }
 
+.card2 {
+  display:inline;
+  float:left;
+  padding: 5px 20px 20px 15px;
+  margin: 0 4% 4% 4%;
+  text-align:left;
+  width:22%;
+  height: 60px;
+  background:white;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.05);
+}
+
 #first-card {
   margin-left:0;
 }
@@ -149,6 +139,15 @@ h4 {
   top: 200px;
 }
 
+.account-status-2 {
+  position:static;
+  width:100%;
+}
+
+.account-name {
+  width:600px;
+}
+
 .account-list {
   position:relative;
   float:left;
@@ -158,6 +157,23 @@ h4 {
   height:50px;
 }
 
+.account-icon {
+  width:30px;
+  height:30px;
+  float:left;
+}
+
+.bank-name {
+  position:absolute;
+  top:0;
+  left:125px;
+}
+
+.account-type {
+  position:absolute;
+  top:0;
+  left:450px;
+}
 
 h2 {
   display:inline;
