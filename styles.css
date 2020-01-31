@@ -71,6 +71,7 @@ main {
   background:linear-gradient(to right, #8ED1DC, #E3F4F6);
   display:block;
   height:80px;
+  box-shadow: 5px 5px 15px 0 rgba(0,0,0,0.05);
 }
 
 .tiny-x {
@@ -99,6 +100,18 @@ main {
   float:left;
 }
 
+.bank-name {
+  position:absolute;
+  top:0;
+  left:125px;
+}
+
+.account-type {
+  position:absolute;
+  top:0;
+  left:450px;
+}
+
 p {
   margin-bottom:5px;
   font-size: 10px;
@@ -119,6 +132,7 @@ h4 {
   width:22%;
   height: 60px;
   background:white;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.05);
 }
 
 #first-card {
@@ -131,6 +145,8 @@ h4 {
 
 .account-status {
   width:100%;
+  position: absolute;
+  top: 200px;
 }
 
 .account-list {
@@ -157,7 +173,6 @@ h2 {
 
 h3 {
   display:inline;
-  margin:10px 10px 10px 72px;
 }
 
 button {
@@ -167,7 +182,8 @@ button {
   text-transform: uppercase;
   border-radius: 25px;
   padding: 7px 20px;
-  width: 160px;
+  width: 165px;
+  font-size:12px;
 }
 
 .account-button {
@@ -180,10 +196,11 @@ button {
   background:white;
   display:inline-block;
   width:100%;
-  margin: 10px auto;
+  margin: 1px auto;
   box-sizing:border-box;
   padding: 15px;
   position:relative;
+  height:75px;
 }
 
 aside {
