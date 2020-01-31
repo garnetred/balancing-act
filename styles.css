@@ -55,13 +55,30 @@ main {
   border-left: 2px solid turquoise;
 }
 
+.welcome {
+  height: 73px;
+  width: 100%;
+  box-sizing: border-box;
+  position:relative;
+  height:80px;
+}
+
 .blue-background {
   width:100%;
-  padding:20px;
+  padding:25px;
   margin:0;
   box-sizing: border-box;
   background:linear-gradient(to right, #8ED1DC, #E3F4F6);
   display:block;
+  height:80px;
+}
+
+.tiny-x {
+  height:10px;
+  width:10px;
+  position:absolute;
+  top: 15px;
+  right: 15px;
 }
 
 .account-overview {
@@ -137,28 +154,20 @@ h2 {
   margin:0
 }
 
-.transaction {
-
-}
 
 h3 {
   display:inline;
   margin:10px 10px 10px 72px;
 }
 
-
-.credit-card {
-  margin:10px 10px 10px 72px;
-}
-
 button {
   background-color:#1CA3BA;
-  border-radius: 10px 10px 10px 10px;
   border: transparent;
   color:white;
   text-transform: uppercase;
-  padding:5px 15px;
-  position:absolute;
+  border-radius: 25px;
+  padding: 7px 20px;
+  width: 160px;
 }
 
 .account-button {
@@ -166,9 +175,6 @@ button {
   bottom: 6px;
   right: 5px;}
 
-.new-transaction-button {
-  margin-left:105px;
-}
 
 .info-card {
   background:white;
@@ -177,16 +183,36 @@ button {
   margin: 10px auto;
   box-sizing:border-box;
   padding: 15px;
+  position:relative;
 }
 
 aside {
   width:500px;
   position: absolute;
   top: 99px;
-  left: 755px;
+  right: 100px;
   background-color:white;
   padding: 20px;
   height:500px;
+}
+
+.transaction-sidebar {
+  height:50px;
+  position:relative;
+  width:100%;
+}
+
+.transaction {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    margin: 0;
+}
+
+.new-transaction-button {
+  position:absolute;
+  right: 25px;
+  top: 5px;
 }
 
 table {
