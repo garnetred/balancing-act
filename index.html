@@ -11,16 +11,16 @@
       <nav class="navbar">
             <img class="company-logo" src="assets/elephant.svg" alt="Company logo of an elephant atop a
             balloon.">
-            <img class="icon" src="assets/dashboard.svg" alt="A clipboard with a heart monitor
+            <img class="icon" id="dashboard-button" src="assets/dashboard.svg" alt="A clipboard with a heart monitor
             on it.">
-            <img class="icon" src="assets/transactions.svg" alt="An image of a credit
+            <img class="icon" id ="transaction-button" src="assets/transactions.svg" alt="An image of a credit
             card poking out of a wallet.">
             <img class="icon" src="assets/profile.svg" alt="A silhouette of a person.">
       </nav>
-    <header>
+    <header id="dashboard1" class="show">
       <h1>Balancing Act</h1>
     </header>
-    <main>
+    <main id="dashboard2" class="show">
       <section class="welcome">
         <h3 class="blue-background" id="hide">Welcome, Oscar!</h3>
         <img src="assets/close.svg" alt="a tiny x with which to close the page"
@@ -72,7 +72,7 @@
           </div>
     </section>
     </main>
-    <aside class="recent-transaction">
+    <aside id ="dashboard3" class="recent-transaction" class="show">
       <section class="transaction-sidebar">
         <h2 class="transaction">Recent Transactions</h2>
         <button class="new-transaction-button">New Transaction</button>
@@ -144,5 +144,13 @@
         </tbody>
       </table>
   </aside>
+    <header id="transaction1" class="hide">
+      <h1>Transactions</h1>
+    </header>
+    <main id="transaction2" class="hide">
+    </main>
+    <section id="transaction3" class="hide">
+    </section>
+
   </body>
 </html>

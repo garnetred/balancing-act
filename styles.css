@@ -253,3 +253,30 @@ tr {
 .outflow {
   padding-right:0;
 }
+
+/*Main section for the transaction view*/
+.transaction1 {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.transaction2 {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.transaction3 {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.hide {
+  display:none;
+}
+
+.show {
+  display:block;
+}
