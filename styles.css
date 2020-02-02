@@ -4,9 +4,6 @@ body {
   color:#363636;
 }
 
-header {
-}
-
 nav {
   width:55px;
   background-color:white;
@@ -16,6 +13,10 @@ nav {
   left: 0;
   bottom: 0px;
   z-index:1;
+}
+
+header {
+  position:relative;
 }
 
 header, main {
@@ -179,6 +180,8 @@ button {
   padding: 7px 20px;
   width: 165px;
   font-size:12px;
+  margin:10px;
+  cursor:pointer;
 }
 
 .account-button {
@@ -242,7 +245,8 @@ td {
   padding:0 10px 0 0;
 }
 
-td {
+td,
+tr {
   border-bottom:1px solid #CCCCCC;
 }
 
@@ -254,29 +258,36 @@ tr {
   padding-right:0;
 }
 
-/*Main section for the transaction view*/
-.transaction1 {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.transaction2 {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.transaction3 {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-}
-
 .hide {
   display:none;
 }
 
 .show {
   display:block;
+}
+
+/*Main section in the transaction view*/
+.main-transaction-view {
+  background-color:white;
+}
+
+/* section encompassing transaction buttons within transaction view */
+.transaction-flow-buttons {
+  position:absolute;
+  top:20px;
+  left:300px;
+}
+
+/*blue transaction button*/
+.flow-button1 {
+  width:100px;
+  margin:1px;
+}
+
+/*White transaction buttons*/
+.flow-buttons {
+  width:100px;
+  margin:1px;
+  background:white;
+  color:#1CA3BA;
 }
