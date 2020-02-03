@@ -242,7 +242,7 @@ table {
 
 th,
 td {
-  padding:0 10px 0 0;
+  padding:10px;
 }
 
 td,
@@ -269,6 +269,7 @@ tr {
 /*Main section in the transaction view*/
 .main-transaction-view {
   background-color:white;
+  padding:10px;
 }
 
 /* section encompassing transaction buttons within transaction view */
@@ -290,4 +291,44 @@ tr {
   margin:1px;
   background:white;
   color:#1CA3BA;
+  border:1px solid #1CA3BA;
+}
+
+/*h2 "New Transaction" heading*/
+.new-transaction {
+  text-align:center;
+  display:block;
+  margin: 5px 10px;
+}
+
+fieldset {
+  width:350px;
+  margin: 0 auto;
+  border:none;
+}
+
+form {
+  width:100%;
+}
+
+label {
+  display:block;
+  width:100%
+}
+
+select {
+  width:100%;
+}
+
+input {
+  width:350px;
+  height:20px;
+}
+
+.expense-button {
+  margin-left:0px;
+  text-transform: capitalize;
+  padding: 7px 0;
+  width: 120px;
+  font-size: 14px;
 }

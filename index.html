@@ -120,7 +120,7 @@
           <tr>
             <td>October 19, 2019</td>
             <td>Rent</td>
-            <td>$800</td>
+            <td>$800.00</td>
             <td class="outflow"> - </td>
           </tr>
           <tr>
@@ -261,10 +261,36 @@
           </tr>
         </tbody>
       </table>
-
     </main>
-    <section id="transaction3" class="hide">
-    </section>
-
+    <aside id="transaction3" class="hide">
+      <h2 class="new-transaction">New Transaction</h2>
+      <fieldset>
+        <form action="" method="post">
+          <label for="transaction-select">Type of Transaction:
+          </label>
+          <select name="transaction" id="transaction-type">
+            <option value=""> - Select One - </option>
+            <option value="expense">Expense</option>
+          </select>
+          <label for="category-select">Category
+          </label>
+          <select name="item-category" id="category">
+            <option value=""> - Select One - </option>
+          </select>
+          <label for="account">Account from:
+          </label>
+          <select name="account-select" id="account">
+            <option value=""> - Select One - </option>
+          </select>
+          <label for="payee-input">Payee:</label>
+            <input type="text">
+          <label for="outflow-input">Outflow:</label>
+            <input type="text">
+          <label for="category-input">Category:</label>
+            <input type="text">
+          <button class="expense-button">Log Expense</button>
+        </form>
+      </fieldset>
+    </aside>
   </body>
 </html>
